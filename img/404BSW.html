@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404BSW</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="icon" href="img/Microsoft_To-Do_icon.png" />
+    <style>
+        body {
+            background-image: url(img/BGNEW.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav style="background-color: rgb(28, 59, 101);" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a style="color:whitesmoke; size: 20px; font-weight: 400; " class="navbar-brand" href="index.html">404BSW</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form style="background-color: rgb(28, 59, 101);>
+                <button class=" d" role="search">
+                <a href="new.html" class="btn btn-warning">
+                    <i class="NEWS" aria-hidden="true"></i> NEWS</a>
+                <a href="StudyProgram.html" style="color:rgb(13, 26, 102)" class="btn btn-light">
+                    <i class="info" aria-hidden="true"></i> หลักสูตร</a>
+                <a href="tun.html" style="color:rgb(13, 26, 102)" class="btn btn-light">
+                    <i class="info" aria-hidden="true"></i> ทุนการศึกษา</a>
+                <a href="contact.html" style="color:rgb(13, 26, 102)" class="btn btn-light">
+                    <i class="contect" aria-hidden="true"></i> ติดต่อ</a>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <div class="beforcontainer">
+        <div class="Floattext">
+            <div class="TextFloat">
+                <h1 style="font-family:'Itim'">กำลังพัฒนา</h1>
+                <h2>ตัวอย่างเช่น เทคโนโลยีสารสนเทศ</h2>
+            </div>
+
+        </div>
+        <div class="container">
+            <form action="www.google.com" class="search-bar">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="ใส่คณะที่ต้องการหา..." title="Type in a name">
+
+            </form>
+        </div>
+        <div class="Keyword">
+        <ul id="myUL">
+            <li><a href="ITinfo.html" style="color: white;">คณะเทคโนโลยีสารสนเทศ สจล.</a></li>
+            <li><a href="kuinfo.html" style="color: white;">คณะนิเทศศาสตร์และสารสนเทศศาสตร์ ม.เกษตร</a></li>       
+            <li><a href="cmuinfo.html" style="color: white;">แอนนิเมชันและวิชวลเอฟเฟกต์ ม.เชียงใหม่</a></li>
+        </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <br />
+    <script src="js/search.js"></script> 
+
+
+    I
+<div class="footer">
+    <p></p>
+</div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>
