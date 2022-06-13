@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Itim", Monospace;
+    letter-spacing: -1px;
+    box-sizing: border-box;
+
+  }
+
+.Wholebody{
+    margin-top: 10px;
+    justify-items: start;
+    background-image: url(img/BGNOWATER.png);
+}
+
+
+
+.square1 {
+    background: rgb(220, 159, 124);
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 50vw;
+    height: 27vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.square1 img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+    .square1 h1 {
+        color: #fff;
+        text-align: center;
+        font-size: x-large;
+    }
+
+.square2 {
+    background: rgb(152, 118, 164);
+    border-radius: 15px;
+    margin-top: 18px;
+    width: 50vw;
+    height: 27vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.square2 img{
+    width: 300px;
+    height: 300px;
+}
+
+.square2 h1 {
+    color: #fff;
+        text-align: center;
+        font-size: x-large;
+}
+
+.square3 {
+    background: rgb(95, 177, 135);
+    width: 50vw;
+    height: 27vw;
+    margin-left: 51vw;
+    margin-top: -50.0vw;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.square3 img{
+    width: 300px;
+    height: 300px;
+}
+
+.square3 h1 {
+    color: #fff;
+        text-align: center;
+        font-size: x-large;
+}
+
+.square4 {
+    background: rgb(242, 221, 135);
+    width: 50vw;
+    height: 27vw;
+    text-align: center;
+    margin-left: 51vw;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.square4 h1 {
+    color: #fff;
+        text-align: center;
+        font-size: x-large;
+}
+
+.square4 img{
+    width:  300px;
+    height: 300px;
+}
+
+.logo {
+    padding-left: 12vw;
+    background-size: contain;
+}

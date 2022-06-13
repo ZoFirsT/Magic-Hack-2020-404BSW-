@@ -1,0 +1,44 @@
+
+body {
+    background-image: radial-gradient(rgb(41, 110, 127), rgb(226, 234, 237), rgb(3, 61, 90));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.kutun img{
+ height: 800px;
+ justify-content: center;
+ justify-items: center;
+ box-shadow: 3px 3px 10px rgba(145, 252, 227, 1);
+ margin-top: 40px;
+ float: inline-start;
+}
+
+.gmutun img{
+    height: 800px;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 3px 3px 10px rgb(252, 145, 250);
+    margin-top: 40px;
+    float: inline-end;
+   }
+
+   .kmitltun img{
+    height: 800px;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 3px 3px 10px rgb(252, 145, 145);
+    margin-top: 40px;
+    float: inline-start;
+   }
+   
+   .tutun img{
+       height: 800px;
+       justify-content: center;
+       justify-items: center;
+       box-shadow: 3px 3px 10px rgba(145, 252, 227, 1);
+       margin-top: 40px;
+       float: inline-end;
+      }

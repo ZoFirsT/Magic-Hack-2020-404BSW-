@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Itim", Monospace;
+  letter-spacing: -1px;
+  box-sizing: border-box;
+}
+
+.Faculty{
+  margin-top:-100px;
+  background-size:100% 180%;
+  padding:160px 22px 36px 22px;
+  margin-left:70px
+  
+}
+
+.Facultyname{
+  margin-left: 20px
+}
+
+.Univername{
+  margin-left: 350px
+}
+
+.INFORMATION{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.Timing{
+  margin-left: 0px;
+  margin-top: 0px;  
+}
+
+.Price{
+  margin-top: 0px;  
+}
+
+.TimingInfo{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.horizontal_line {
+  background-color: navy;
+  width: 50%;
+  height: 5px;
+  border-top: 5px dotted black;
+  line-height: 80%;
+}
+
+.line {
+  border-bottom: 5px solid navy;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: -100px;
+  transform: rotate(90deg);
+}
+
+.dot1 {
+  height: 700px;
+  width: 700px;
+  background-color: navy;
+  border-radius: 70%;
+  display: inline-block;
+  margin-top: -200px;
+  margin-left: 1000px;
+}
+
+.dot2 {
+  height: 555px;
+  width: 555px;
+  background-color: rgb(50, 58, 50);
+  border-radius: 70%;
+  display: inline-block;
+  margin-top: -1500px;
+  margin-left: 800px;
+}
+
+.Wholebody{
+  margin-top: 10px;
+}
+
+
+.square1 {
+  background: rgb(220, 159, 124);
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 50vw;
+  height: 25vw;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+.square1 img{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+  .square1 h1 {
+      color: #fff;
+      text-align: center;
+      font-size: x-large;
+  }
+
+.paper{
+  background: whitesmoke;
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 80vw;
+  height: 180vw;
+  overflow: hidden;  
+}
